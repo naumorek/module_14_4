@@ -31,7 +31,7 @@ import crud_functions
 from module14.crud_functions import get_all_products
 
 
-api="7706788533:AAES0vJptDDZD_Iey7CHQxxbunE7RTC5gYU"
+api="7706788533:"
 bot=Bot(token=api)
 dp=Dispatcher(bot,storage=MemoryStorage())
 kb_menu=ReplyKeyboardMarkup(              #главное меню
